@@ -1,2 +1,0 @@
-# corepo
-dont touch pls
