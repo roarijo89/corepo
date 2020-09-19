@@ -1,0 +1,11 @@
+Package: com.180.myiapcracker
+Name: myiapcracker 2
+Author: stem grade
+Description:
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common, com.rpetrich.rocketbootstrap
+Maintainer: stem grade
+Architecture: iphoneos-arm
+Section: stem_grade
+Depiction: https://roarijo89.github.io/roarijo89-Tweak/description.html?id=com.180.myiapcracker
+Version: 0.1.14
+Installed-Size: 1808
