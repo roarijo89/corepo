@@ -1,0 +1,11 @@
+Package: com.roarijo89.simple
+Name: simple flex 3
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: read Description
+Maintainer: roarijo89
+Author: roarijo89 Tweaks <roarijoa@gmail.com>
+Section: _Tweaks_
+Version: 1.1
+Depiction: https://roarijo89.github.io/roarijo89-Tweak/description.html?id=com.roarijo89.simple
+Installed-Size: 316
