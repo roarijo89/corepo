@@ -1,0 +1,21 @@
+17.09.20.
+
+Duplicated and modified index.html to create a new page for Policies.
+
+Created a group of policies, with some parts being generic web and cookie policies and some aspects being slightly more customied to suite CocoTweaks. These policies essentially mirror other community Repo services like Dynastic and YouRepo. You may need to check these aspects to ensure they suite your service.
+
+Corrected spacing issue with header "CocoTweaks Policy Page".
+Corrected issue with the asterix (bullet point) sentences.
+Corrected issue with one of the paragraphs when in dark mode.
+
+Made the CocoHub name / "logo" on the nav bar return to index.html (Homepage).
+Previous code line.
+<a id="sectionTextColor" class="navbar-brand" href="#">Coco Hub</a>
+Modified code line.
+<a id="sectionTextColor" class="navbar-brand" href="CocoHub.html">Coco Hub</a>
+
+Added Policy link to nav bar on index page. Note the font (Icon).<i class="fa fa-book" aria-hidden="true">
+Code line:
+<li class="nav-item active">
+						<a id="sectionTextColor" class="nav-link" href="CocoPolicy.html"><i class="fa fa-book" aria-hidden="true"></i> Policy</a>
+					</li>
