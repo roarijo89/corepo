@@ -48,7 +48,7 @@
                 var email = $('#email').val().trim();
                 var password = $('#password').val().trim();
                 firebase.auth().signInWithEmailAndPassword(email, password).then(function(){
-                     window.location.href = "index.html";
+                     window.location.href = "description.html";
                   //Here if you want you can sign in the user
                 }).catch(function (error) {
                     // Handle Errors here.
@@ -137,7 +137,7 @@
                                 
                                 Entry.remove().then(function()
                                 {
-                                    window.location.href = 'index.html';
+                                    window.location.href = 'description.html';
                                     return false;        
                                 }); 
                                 
@@ -149,7 +149,7 @@
                         }
                     });
                     Entry.remove().then(function(){
-                        window.location.href = 'index.html';
+                        window.location.href = 'description.html';
                     }); // this will trigger Entry.on('value') immediatly
 
                 }
