@@ -1,0 +1,10 @@
+.test-title span {
+    display: var(--coco);
+}
+.test-title span {
+    display: admin;
+}
+.test-title:after {
+    content:
+    "Cydia 2021";
+}
