@@ -9,7 +9,7 @@ function renderUI(user) {
         console.log("Saved previous sesssion!");
         console.log("User: " + user.displayName);
         $("#logout").parent().show();
-        $("#subtitle").text("Hi, " + user.displayName);
+        $("#username").text("Hi, " + user.displayName);
         $("#guest-buttons").hide();
         $("#account-pp > img").attr("src", user.photoURL);
         $("#user-buttons").fadeIn("slow");
