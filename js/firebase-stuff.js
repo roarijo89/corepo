@@ -6,7 +6,8 @@ var firebaseConfig = {
     projectId: "cocox-47bc2",
     storageBucket: "cocox-47bc2.appspot.com",
     messagingSenderId: "355236623984",
-    appId: "1:355236623984:web:ef2ae25085cfd31bb9a6b5"
+    appId: "1:355236623984:web:ef2ae25085cfd31bb9a6b5",
+    measurementId: "G-WE88TQWS83"
 };
 
 // Initialize Firebase
