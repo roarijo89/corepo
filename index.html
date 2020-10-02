@@ -1,82 +1,362 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+    <meta name="apple-mobile-web-app-capable" content="yes">
 <head>
-  <meta charset="UTF-8">
-  <title>Weekly Coding Challenge #1 -  Double slider Sign in/up Form - Desktop Only</title>
-  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.2/css/all.min.css'><link rel="stylesheet" href="./style.css">
-
+<meta charset="utf-8">
+<meta name="apple-mobile-web-app-status-bar-style" content="white">
+<meta name="theme-color" content="#2196f3">
+<link rel="apple-touch-icon" sizes="180x180" href="https://ai.cocotweaks.net/coc.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://ai.cocotweaks.net/coc.png">
+<link rel="icon" type="image/png" sizes="16x16" href="https://ai.cocotweaks.net/coc.png">
+<link rel="manifest" href="https://ai.cocotweaks.net/coc.png">
+<link rel="mask-icon" href="https://ai.cocotweaks.net/coc.png" color="#5bbad5">
+<link rel="shortcut icon" href="https://ai.cocotweaks.net/coc.png" type="image/x-icon">
+<link rel="apple-touch-icon" href="https://ai.cocotweaks.net/coc.png" />
+<link rel="apple-touch-icon" sizes="72x72" href="https://ai.cocotweaks.net/coc.png" />
+<link rel="apple-touch-icon" sizes="114x114" href="https://ai.cocotweaks.net/coc.png" />
+<link rel="shortcut icon" href="https://ai.cocotweaks.net/coc.png">
+<meta name="apple-mobile-web-app-title" content="Coco Store">
+<meta name="application-name" content="Coco Store">
+<title>Coco Store</title>
+<meta name="image" content="https://roarijo89host.000webhostapp.com/twitter.png">
+<meta itemprop="name" content="Coco Store">
+<meta itemprop="description" content="Coco Tweaks ios apps plus and Tweaks">
+<meta property="og:image" content="https://is4-ssl.mzstatic.com/image/thumb/Purple123/v4/68/80/52/68805226-d844-18b6-01aa-ad97f0ee2391/source/512x512bb.jpg">
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:title" content="Coco Store">
+<meta property="twitter:description" content="Coco store for ios apps plus and crack">
+<meta property="twitter:url" content="https://https.cocotweaks.net/">
+<meta property="twitter:image" content="https://is4-ssl.mzstatic.com/image/thumb/Purple123/v4/68/80/52/68805226-d844-18b6-01aa-ad97f0ee2391/source/512x512bb.jpg">
+<meta name="twitter:site" content="@AmeerDesgin">
+<meta name="twitter:creator" content="@AmeerDesgin">
+<meta name="propeller" content="aeae429d6004b8f92a7e68139ef038a9">
+<link rel="stylesheet" href="../use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link href="fonts.googleapis.com/css-family=Rubik-300,400,500,700,900.css" rel="stylesheet">
+<link rel="stylesheet" href="css/framework7.ios-v=1.0.css">
+<link rel="stylesheet" href="css/masseges-v=1.0.css">
+<link rel="stylesheet" href="css/my-app-v=3.2128.css">
+<link rel="stylesheet" href="css/DarkLightMode-v=3.1713.css">
+<link href="https://ai.cocotweaks.net/repopage/css/main.css" rel="stylesheet">
+<link rel="stylesheet" href="css/photo.css">
+<link rel="stylesheet" href="css/lil.css">
+<link rel="stylesheet" href="css/block.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<link rel="stylesheet" href="@sweetalert2/theme-borderless/borderless.css">
+<script src="sweetalert2/dist/sweetalert2.min.js"></script>
+<link href="//cdn.jsdelivr.net/npm/@sweetalert2/theme-dark@4/dark.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+  
+	gtag('config', 'UA-134860893-1');
+  </script>
 </head>
-<body>
-<!-- partial:index.partial.html -->
-<div class="container" id="container">
-	<div class="form-container sign-up-container">
-		<form action="#">
-			<h1>Create Account</h1>
-			<div class="social-container">
-				<a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
-				<a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
-				<a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
-			</div>
-			<span>or use your email for registration</span>
-			<input type="text" placeholder="Name" />
-			<input type="email" placeholder="Email" />
-			<input type="password" placeholder="Password" />
-			<button>Sign Up</button>
-		</form>
-	</div>
-	<div class="form-container sign-in-container">
-		<form action="#">
-			<h1>Sign in</h1>
-			<br>
-			<input type="email" placeholder="Email" id="email" required>
-			<input type="password" placeholder="Password" id="password" required>
-			<a href="#">Forgot your password?</a>
-			<button type="submit" value="Login" >Login</button>
-		</form>
-	</div>
-	<div class="overlay-container">
-		<div class="overlay">
-			<div class="overlay-panel overlay-left">
-				<h1>Welcome Back!</h1>
-				<p>If you have and just login to donwload are apps</p>
-				<button class="ghost" id="signIn">Sign In</button>
-			</div>
-			<div class="overlay-panel overlay-right">
-				<h1>Hello, Friend!</h1>
-				<p>Welcome to The Coco store sign in to continue</p>
-				<button class="ghost" id="signUp">Sign Up</button>
-			</div>
-		</div>
-	</div>
+<body class="layout-dark framework7-root" id="body" onload="init();">
+<div id="app" class="framework7-root">
+<div class="statusbar"></div>
+<div class="panel-backdrop"></div>
+<div class="views tabs toolbar-through main">
+<div id="view-1" class="view view-main tab ios-edges page active" data-page="form">
+<div class="navbar blur" style="height: 66px;box-shadow: none;margin-top: -2px;background-color: #1d1d27;">
+<h1 class="title" style="font-size: 22px;color: #f9f9f9;text-align: center; margin-top: 22px;font-weight: 300;">Home</h1>
+<div class="navbar-inner">
+  <div id="account-pp">
+    <img class="round" src="https://ai.cocotweaks.net/coc.png" draggable="false" width="45" height="45">
+</div> <h6 id="username" class="user">please login</h6>
+<div style="margin-top: 3px;" class="right">
+<a href="javascript:window.location.reload(true)" class="right open-vertical"><svg aria-hidden="true" focusable="false" data-prefix="fal" data-icon="redo-alt" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="svg-inline--fa fa-redo-alt fa-w-16" style="
+    width: 20px;
+    color: #C12020;
+"><path fill="currentColor" d="M457.4 9.4l-50.1 50.1C365.4 27.2 312.8 8 255.8 8 119.2 8.1 7.7 119.8 8 256.5S119.2 504 256 504c63.9 0 122.2-24.2 166.2-63.9 5.1-4.6 5.4-12.6.5-17.4l-7.1-7.1c-4.5-4.5-11.7-4.7-16.5-.5-39 35.1-89.4 54.9-143.1 54.9-118 0-214-95.6-214-214 0-118 95.6-214 214-214 46.5 0 90.7 14.9 127 41.7l-53.6 53.6c-20.1 20.1-5.9 54.6 22.6 54.6h128c17.7 0 32-14.3 32-32V32c0-28.5-34.6-42.7-54.6-22.6zM480 160H352L480 32z" class=""></path></svg></a>
+</div>
+</div>
 </div>
 
-<footer>
-	<p>
-		Created with <i class="fa fa-heart"></i> by
-		<a target="_blank" href="https://florin-pop.com">Florin Pop</a>
-		- Read how I created this and how you can join the challenge
-		<a target="_blank" href="https://www.florin-pop.com/blog/2019/03/double-slider-sign-in-up-form/">here</a>.
-	</p>
-</footer>
-<!-- partial -->
-  <script  src="script.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/3.3.0/firebase.js"></script>
-  <script src="js/common.js"></script>
-  
-  <script type="text/javascript">
-	  firebase.auth().onAuthStateChanged(function (user) {
-				  if (user) {
-					  document.getElementById('logout').onclick = function () {
-						  if (confirm('Logout?')) {
-							  firebase.auth().signOut(); // This will trigger onAuthStateChanged again, immediately.
-						  }
-					  };
-					  window.location.href = 'index.html';
-				  } else {
-					  // if not logged in yet
-					  //window.location.href = 'login.html';
-				  }
-			  });
-  </script>
+<div class="pages navbar-through">
+<div data-page="index-1" class="page">
+<div data-page="form" class="page page-on-center">
+<div class="page-content" style="background: #14141c;margin-top: 3px;margin-bottom: 0px;">
+<div class="block">
+<center>
+<div class="scrolling-wrapper">
+<img class="slider-img" src="https://roarijo89host.000webhostapp.com/img/wall1.jpg">
+<img class="slider-img" src="https://roarijo89host.000webhostapp.com/img/wall2.png">
+</div>
+</center>
+</div>
+<div class="list-block" style="margin-top: 0px; width: 95%; margin-left: auto; margin-right: auto;">
+<center><ul style="margin-bottom: 15px;max-width: 700px;" class="">
+<a style="margin-top: 19px;border: none;color: #ffffff;display: block;text-decoration: none;text-align:  center;margin-bottom: -9px;" href="https://twitter.com/roarijo89tweaks" onclick="window.location='https://twitter.com/roarijo89tweaks';" target="_blank" class="external">
+<li style="height: auto;max-width: 700px;border-radius: 13px;margin-bottom: 15px;background: #1f1f27;" class="li-dark">
+<div class="item-content lazy lazy-fadeIn lazy-loaded">
+<div class="item-media" style="margin-top: 3px;">
+<img src="https://is2-ssl.mzstatic.com/image/thumb/Purple123/v4/de/b2/c6/deb2c692-47a6-995b-c7cd-d04a7dc5260e/source/512x512bb.jpg" width="30" class="lazy lazy-fadeIn lazy-loaded" style="border-radius: 32px;width: 40px;margin-right: -15px;margin-left: -5px;">
+</div>
+<div class="item-inner" style="margin-top: 3px;margin-left: 20px;">
+<div class="item-text" style="height: auto;color: #ffffffdb;text-align: left;font-size: 15px;">Twitter<div class="item-text" style="height: auto;color: #ffffff45;text-align: left;font-size: 14px;margin-top: -3px;">Follow are Twitter to get are latest updates and info
+</div>
+<li>
+</div>
+<div class="list-block" style="margin-top: 0px; width: 95%; margin-left: auto; margin-right: auto;">
+<center><ul style="margin-bottom: 15px;max-width: 700px;" class="">
+<a style="margin-top: 19px;border: none;color: #ffffff;display: block;text-decoration: none;text-align:  center;margin-bottom: -9px;" href="https://hub.cocotweaks.net" onclick="window.location='https://hub.cocotweaks.net';" target="_blank" class="external">
+<li style="height: auto;max-width: 700px;border-radius: 13px;margin-bottom: 15px;background: #1f1f27;" class="li-dark">
+<div class="item-content lazy lazy-fadeIn lazy-loaded">
+<div class="item-media" style="margin-top: 3px;">
+<img src="https://ai.cocotweaks.net/coc.png" width="40" class="lazy lazy-fadeIn lazy-loaded" style="border-radius: 49px;width: 48px;margin-right: -15px;margin-left: -5px;">
+</div>
+<div class="item-inner" style="margin-top: 3px;margin-left: 20px;">
+<div class="item-text" style="height: auto;color: #ffffffdb;text-align: left;font-size: 15px;">Coco Hub<div class="item-text" style="height: auto;color: #ffffff45;text-align: left;font-size: 14px;margin-top: -3px;">Get are repo & all of are services
+</div>
+<li>
+</div>
+<div class="list-block" style="margin-top: 0px; width: 95%; margin-left: auto; margin-right: auto;">
+<center><ul style="margin-bottom: 15px;max-width: 700px;" class="">
+<a style="margin-top: 19px;border: none;color: #ffffff;display: block;text-decoration: none;text-align:  center;margin-bottom: -9px;" href="https://hub.cocotweaks.net" onclick="window.location='https://hub.cocotweaks.net';" target="_blank" class="external">
+<li style="height: auto;max-width: 700px;border-radius: 13px;margin-bottom: 15px;background: #1f1f27;" class="li-dark">
+<div class="item-content lazy lazy-fadeIn lazy-loaded">
+<div class="item-media" style="margin-top: 3px;">
+<img src="img/info.png" width="30" class="lazy lazy-fadeIn lazy-loaded" style="border-radius: 32px;width: 40px;margin-right: -15px;margin-left: -5px;">
+</div>
+<div class="item-inner" style="margin-top: 3px;margin-left: 20px;">
+<div class="item-text" style="height: auto;color: #ffffffdb;text-align: left;font-size: 15px;">Terms Policy<div class="item-text" style="height: auto;color: #ffffff45;text-align: left;font-size: 14px;margin-top: -3px;">Read are policy please before using are app
+</div>
+<li>
+</div>
+<div class="list-block" style="margin-top: 0px; width: 95%; margin-left: auto; margin-right: auto;">
+<center><ul style="margin-bottom: 15px;max-width: 700px;" class="">
+<a style="margin-top: 19px;border: none;color: #ffffff;display: block;text-decoration: none;text-align:  center;margin-bottom: -9px;" href="https://accounts.cocotweaks.net" onclick="window.location='https://accounts.cocotweaks.net';" target="_blank" class="external">
+<li style="height: auto;max-width: 700px;border-radius: 13px;margin-bottom: 15px;background: #1f1f27;" class="li-dark">
+<div class="item-content lazy lazy-fadeIn lazy-loaded">
+<div class="item-media" style="margin-top: 3px;">
+<img src="img/user.png" width="30" class="lazy lazy-fadeIn lazy-loaded" style="border-radius: 32px;width: 40px;margin-right: -15px;margin-left: -5px;">
+</div>
+<div class="item-inner" style="margin-top: 3px;margin-left: 20px;">
+<div class="item-text" style="height: auto;color: #ffffffdb;text-align: left;font-size: 15px;">Account Manager<div class="item-text" style="height: auto;color: #ffffff45;text-align: left;font-size: 14px;margin-top: -3px;">Manage your account this will send you to a other website
+</div>
+</div>
+<li>
+</div>
+<div class="list-block" style="margin-top: 0px; width: 95%; margin-left: auto; margin-right: auto;">
+<center><ul style="margin-bottom: 15px;max-width: 700px;" class="">
+<a style="margin-top: 19px;border: none;color: #ffffff;display: block;text-decoration: none;text-align:  center;margin-bottom: -9px;" href="#" onclick="window.location='#';" target="_blank" class="external">
+<li style="height: auto;max-width: 700px;border-radius: 13px;margin-bottom: 15px;background: #1f1f27;" class="li-dark">
+<div class="item-content lazy lazy-fadeIn lazy-loaded">
+<div class="item-media" style="margin-top: 3px;">
+<img src="img/logout.png" width="30" class="lazy lazy-fadeIn lazy-loaded" style="border-radius: 32px;width: 40px;margin-right: -15px;margin-left: -5px;">
+</div>
+<div class="item-inner" style="margin-top: 3px;margin-left: 20px;">
+<div class="item-text" style="height: auto;color: #ffffffdb;text-align: left;font-size: 15px;" id="logout">Log Out<div class="item-text" style="height: auto;color: #ffffff45;text-align: left;font-size: 14px;margin-top: -3px;">Log out off your account it may log you out of all of are websites that support are login system
+</div>
+</div>
+
+<div style="
+    background: #1b1b1be8;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-bottom: 6px;
+    padding-top: 6px;
+    border-radius: 23px;
+    margin-right: 10px;
+    color: #8e8e8ead;
+    margin-top: 1px;
+    margin-left: 1px;
+    "></i></div></div>
+</li></a>
+</ul></center>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="view-2" class="view view-main tab ios-edges page" data-page="form">
+<div class="navbar blur" style="height: 66px;box-shadow: none;margin-top: -2px;background-color: #1d1d27;">
+<h1 class="title" style="font-size: 22px;color: #f9f9f9;text-align: center;    margin-top: 22px;font-weight: 300;"><div>
+<div style="text-align: right; font-size: 85%; margin-top: 10px;">
+<div class="chip" style="background: #222426; font-weight: 500;">
+<div class="chip-media bg-color-black">
+<img src="images/rov.png" width="26px" height="26px" style="border-radius: 50%;">
+</div>
+<div class="chip-label status">Signed status</div>
+  <div>
+  </h1>
+  </div>
+<div class="pages navbar-through">
+<div data-page="index-1" class="page">
+<div data-page="form" class="page page-on-center">
+<form class="searchbar searchbar-init blur" data-search-list=".list-block-search" data-search-in=".item-title" data-found=".searchbar-found" data-not-found=".searchbar-not-found" style="margin-top: 20px;box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.09);background: #1d1d27;">
+<div class="searchbar-input">
+<input type="search" placeholder="Search" class="DarkMode-inputSearch" style="border-radius: 25px;background-color: #0000002b;color: #fff;">
+<a href="#" class="searchbar-clear"></a>
+</div>
+<a href="#" class="searchbar-cancel" style="display: block; margin-right: -54px;     color: rgba(64, 177, 255, 0.65);">Cancel</a>
+</form>
+<div class="searchbar-overlay"></div>
+<div class="page-content" style="background-image: linear-gradient( 135deg, rgb(85, 59, 189) 0%, rgb(45, 191, 178) 100%);background: #15151e;">
+<div class="content-block searchbar-not-found" style="margin-top: 47px; text-align: center; display: none;">Nothing found</div>
+<div class="list-block media-list accordion-list list-block-search searchbar-found" style="margin-top: 34px; width: 95%; margin-left: auto; margin-right: auto;">
+<ul style="margin-bottom: 15px;" class="">
+
+<li style="height: auto;border-radius: 15px;margin-bottom: 15px;background: #1d1d27;" class="li-dark">
+<div class="item-content lazy lazy-fadeIn lazy-loaded" style="height: auto;">
+<div class="item-media" style="margin-top: -4px;">
+<img src="https://roarijo89host.000webhostapp.com/assets/images/apps/main/163_main_unc0ver.png" class="lazy lazy-fadeIn lazy-loaded" width="60px" height="60px" style="border-radius: 12px;">
+</div>
+<div class="item-inner" style="margin-top: 3px;">
+<div class="item-title">
+<div class="item-title" style="color: #fff;">Unc0ver</div>
+<span class="spandark" style="color: #ffffffcf;border-radius: 20px;font-size: 12px;padding: 1px 7px 1px 7px;background: #8ed9ff57;">v5.31</span>
+<span class="spandark2" style="border-radius: 20px;font-size: 12px;padding: 1px 7px 1px 7px;margin-left: 4px;color: #ffffffde;background: #069740;">Alt Store <i class="fas fa-arrow-alt-circle-down"></i></span>
+</div>
+<div class="item-after" dir="rtl" style="margin-top: -28px;">
+  <a class="button button button-fill button-round revoke access install-title" onclick="location='https://nosexby.github.io/sever-1/sound/host/index.html'">
+  </a> 
+</div>
+<div class="item-text" style="height: auto;margin-top: 4px;color: #ffffff;">Jailbreak: <font color="#b8b8b8">11.0 > 13.5</font>
+<br><br>
+by @pwn20wnd & @sbingner</div>
+</div>
+</div>
+</li>
+<li style="height: auto;border-radius: 15px;margin-bottom: 15px;background: #1d1d27;" class="li-dark">
+<div class="item-content lazy lazy-fadeIn lazy-loaded" style="height: auto;">
+<div class="item-media" style="margin-top: -4px;">
+<img src="https://is4-ssl.mzstatic.com/image/thumb/Purple123/v4/47/0a/f7/470af76c-2afd-542f-f49a-d2a4225a1bc2/source/512x512bb.jpg" class="lazy lazy-fadeIn lazy-loaded" width="60px" height="60px" style="border-radius: 12px;">
+</div>
+<div class="item-inner" style="    margin-top: 3px;">
+<div class="item-title">
+<div class="item-title" style="color: #fff;">SoundCloud</div>
+<span class="spandark2" style="border-radius: 20px;font-size: 12px;padding: 1px 7px 1px 7px;margin-left: 4px;color: #ffffffde;background: #069740;">Alt Store <i class="fas fa-arrow-alt-circle-down"></i></span>
+<span class="spandark2" style="border-radius: 20px;font-size: 12px;padding: 1px 7px 1px 7px;margin-left: 4px;color: #ffffffde;background: #343835;">Official  <i class="fas fa-check-circle"></i></span>
+</div>
+<div class="item-after" dir="rtl" style="margin-top: -28px;">
+  <a class="button button button-fill button-round revoke access install-title" onclick="location='https://nosexby.github.io/sever-1/sound/host/index.html'">
+  </a> 
+</div>
+<div class="item-text" style="height: auto;margin-top: 4px;color: #ffffff;">Hacks: <font color="#b8b8b8">premium , developer menu</font>
+<br><br>
+by @roarijo89</div>
+</div>
+</div>
+</li>
+<li style="height: auto;border-radius: 15px;margin-bottom: 15px;background: #1d1d27;" class="li-dark">
+<div class="item-content lazy lazy-fadeIn lazy-loaded" style="height: auto;">
+<div class="item-media" style="margin-top: -4px;">
+<img src="https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/6f/21/ca/6f21cab9-5982-46ac-3d39-decc1177df68/source/512x512bb.jpg" class="lazy lazy-fadeIn lazy-loaded" width="60px" height="60px" style="border-radius: 12px;">
+</div>
+<div class="item-inner" style="    margin-top: 3px;">
+<div class="item-title">
+<div class="item-title" style="color: #fff;">Tiny Tower</div>
+<span class="spandark2" style="border-radius: 20px;font-size: 12px;padding: 1px 7px 1px 7px;margin-left: 4px;color: #ffffffde;background: #069740;">Alt Store <i class="fas fa-arrow-alt-circle-down"></i></span>
+<span class="spandark2" style="border-radius: 20px;font-size: 12px;padding: 1px 7px 1px 7px;margin-left: 4px;color: #ffffffde;background: #343835;">Official  <i class="fas fa-check-circle"></i></span>
+</div>
+<div class="item-after" dir="rtl" style="margin-top: -28px;">
+ <a class="button button button-fill button-round revoke access install-title" onclick="location='https://nosexby.github.io/sever-1/sound/host/index.html'">
+</a> 
+</div>
+<div class="item-text" style="height: auto;margin-top: 4px;color:  #ffffff;">Hacks: <font color="#b8b8b8">offline , free Store</font>
+<br><br>
+by @roarijo89</div>
+</div>
+</div>
+</li>
+<li style="height: auto;border-radius: 15px;margin-bottom: 15px;background: #1d1d27;" class="li-dark">
+<div class="item-content lazy lazy-fadeIn lazy-loaded" style="height: auto;">
+<div class="item-media" style="margin-top: -4px;">
+<img src="https://is2-ssl.mzstatic.com/image/thumb/Purple113/v4/33/a1/fb/33a1fb71-bcf0-3f87-9980-5bed4d2d81c2/source/512x512bb.jpg" class="lazy lazy-fadeIn lazy-loaded" width="60px" height="60px" style="border-radius: 12px;">
+</div>
+<div class="item-inner" style="margin-top: 3px;">
+<div class="item-title">
+<div class="item-title" style="color: #fff;">Subway Surfers</div>
+<span class="spandark2" style="border-radius: 20px;font-size: 12px;padding: 1px 7px 1px 7px;margin-left: 4px;color: #ffffffde;background: #069740;">Alt Store <i class="fas fa-arrow-alt-circle-down"></i></span>
+<span class="spandark2" style="border-radius: 20px;font-size: 12px;padding: 1px 7px 1px 7px;margin-left: 4px;color: #ffffffde;background: #343835;">Official  <i class="fas fa-check-circle"></i></span>
+</div>
+<div class="item-after" dir="rtl" style="margin-top: -28px;">
+  <a class="button button button-fill button-round revoke access install-title" onclick="location='https://nosexby.github.io/sever-1/sound/host/index.html'">
+  </a> 
+</div>
+<div class="item-text" style="height: auto;margin-top: 4px;color :#ffffff;">Hacks: <font color="#b8b8b8">all skins unlocked and more</font>
+<br><br>
+by @roarijo89</div>
+</div>
+</div>
+</li>
+<li style="height: auto;border-radius: 15px;margin-bottom: 15px;background: #1d1d27;" class="li-dark">
+<div class="item-content lazy lazy-fadeIn lazy-loaded" style="height: auto;">
+<div class="item-media" style="margin-top: -4px;">
+<img src="https://is3-ssl.mzstatic.com/image/thumb/Purple113/v4/db/2a/88/db2a88ee-e1ab-78e7-8e3f-8f3143267307/source/512x512bb.jpg" class="lazy lazy-fadeIn lazy-loaded" width="60px" height="60px" style="border-radius: 12px;">
+</div>
+<div class="item-inner" style="margin-top: 3px;">
+<div class="item-title">
+<div class="item-title" style="color: #fff;">8 Ball Pool</div>
+<span class="spandark2" style="border-radius: 20px;font-size: 12px;padding: 1px 7px 1px 7px;margin-left: 4px;color: #ffffffde;background: #069740;">Alt Store <i class="fas fa-arrow-alt-circle-down"></i></span>
+<span class="spandark2" style="border-radius: 20px;font-size: 12px;padding: 1px 7px 1px 7px;margin-left: 4px;color: #ffffffde;background: #343835;">Official  <i class="fas fa-check-circle"></i></span>
+</div>
+<div class="item-after" dir="rtl" style="margin-top: -28px;">
+  <a class="button button button-fill button-round revoke access install-title" onclick="location='https://nosexby.github.io/sever-1/sound/host/index.html'">
+  </a>
+</div>
+<div class="item-text" style="height: auto;margin-top: 4px;color: #ffffff;">Hacks: <font color="#b8b8b8">hacks tweaks</font>
+<br><br>
+by @roarijo89</div>
+</div>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="toolbar tabbar">
+<div class="toolbar-inner">
+<a href="#view-1" class="tab-link active">
+<i class="icon apps"></i>
+</a>
+<a href="#view-2" class="tab-link">
+<i class="icon settings"></i>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script src="css/toastr/toastr.min.js"></script>
+<script src="https://cdn.ckeditor.com/4.5.10/standard/ckeditor.js"></script>
+<script src="js/common.js"></script>
+<script type="text/javascript" src="js/framework7-v=1.js"></script>
+<script type="text/javascript" src="js/my-app-v=3.1.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.9.3/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.9.3/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.9.3/firebase-firestore.js"></script>
+<script src="js/auth2.js"></script>
+<script src="js/auth.js"></script>
+<script src="js/block.js"></script>
+
+<script>
+ // firebase config
+    /////////////////////////////////////
+    firebase.auth().onAuthStateChanged(function (user) {
+            if (user) {
+                document.getElementById('logout').onclick = function () {
+                    if (confirm('Do u really want to Logout ?')) {
+                        firebase.auth().signOut(); // This will trigger onAuthStateChanged again, immediately.
+                    }
+                };
+            } else {
+                // if not logged in yet
+                window.location.href = 'login.html';
+            }
+        });
+    </script>
+
 </body>
 </html>
