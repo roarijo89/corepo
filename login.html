@@ -1,0 +1,54 @@
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <title>Login to Coco store</title>
+    <link rel="stylesheet" href="css/login.css">
+    <link href="csss/toastr/toastr.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="csss/toastr/toastr.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <form id="login_form" class="box" >
+
+                        <h1>Login to the Coco store</h1>
+                        <p class="forgot"> Please enter your email and password to continue</p> <input type="email" placeholder="Email" id="email" required> <input type="password" placeholder="Password" id="password" required> <a class="forgot text-muted" href="#">Forgot password?</a> <input type="submit" value="Login">
+                        <div class="col-md-12">
+                            <ul class="social-network social-circle">
+                                <li><a href="https://www.instagram.com/roarijo89_tweaks/?igshid=1wub5nwua0vps" class="icoFacebook" title="instagram"><i class="fab fa-instagram"></i></a></li>
+                                <li><a href="https://twitter.com/roarijo89tweaks" class="icoTwitter" title="Twitter"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="https://www.reddit.com/user/Coco_Tweaks/" class="icoGoogle" title="reddit"><i class="fab fa-reddit-alien"></i><a></li>
+                            </ul>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>  
+</body>
+<script src="https://www.gstatic.com/firebasejs/3.3.0/firebase.js"></script>
+<script src="js/common.js"></script>
+
+<script type="text/javascript">
+    firebase.auth().onAuthStateChanged(function (user) {
+                if (user) {
+                    document.getElementById('logout').onclick = function () {
+                        if (confirm('Logout?')) {
+                            firebase.auth().signOut(); // This will trigger onAuthStateChanged again, immediately.
+                        }
+                    };
+                    window.location.href = 'index.html';
+                } else {
+                    // if not logged in yet
+                    //window.location.href = 'login.html';
+                }
+            });
+</script>
+</html>

@@ -1,0 +1,17 @@
+.scrolling-wrapper {
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+  width:90%;
+  padding:20px;
+}
+
+.slider-img{
+  width:400px;
+  border-radius:10px;
+  margin:5px;
+}
+
+.scrolling-wrapper {
+  -webkit-overflow-scrolling: Touch;
+}
