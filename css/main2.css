@@ -1,0 +1,20 @@
+.box {
+    position: center;
+    float: left;
+    width: 19%;
+    text-align: center;
+    color: #fff;
+  }
+
+  .round {
+    border-radius: 320px;
+    font-weight: bold;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.piracy{
+line-height: 10vmax;
+font-size: 23px;
+font-family: Copperplate;
+}
